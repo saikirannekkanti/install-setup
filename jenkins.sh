@@ -2,7 +2,8 @@
 yum install git java-1.8.0-openjdk maven -y
 
 # install wget package for download from internet using wget
-sudo yum install wget
+sudo yum install wget -y
+
 
 #STEP-2: GETTING THE REPO (jenkins.io --> download -- > redhat)
 sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
